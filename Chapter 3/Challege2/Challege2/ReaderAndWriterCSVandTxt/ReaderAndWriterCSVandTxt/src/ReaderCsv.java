@@ -21,7 +21,7 @@ public class ReaderCsv implements ModuleRead {
         List<String> paketNilai = new ArrayList<>();
         List<Integer> temp = new ArrayList<>();
 
-
+//Java Exception Handling
         try {
             BufferedReader br = new BufferedReader(new FileReader(new File(path)));
             String line = "";
