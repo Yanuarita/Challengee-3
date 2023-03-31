@@ -7,6 +7,8 @@ import java.util.List;
 public class WritterTxtAndCSV {
     @Override
     public void writterTxtAndCsv(String path, List<String> data) {
+        
+  //Java Exception Handling
         try {
             BufferedWriter bwr = new BufferedWriter(new FileWriter(new File(path)));
             bwr.write("REKAP NILAI\n\n");
